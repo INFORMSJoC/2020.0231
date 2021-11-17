@@ -2,73 +2,56 @@
 
 # Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization
 
-
 ## Cite
 
 The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2020.0231).
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+This repository contains a snapshot of the Julia code used to generate computational results presented in the following paper:
+> Gupta, R., & Zhang, Q. (2020). Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization. arXiv preprint arXiv:2009.07961.
 
-## Building
+(To be updated to the correct <em>INFORMS Journal on Computing</em> reference)
 
-In Linux, to build the version that multiplies all elements of a vector by a
-constant (used to obtain the results in [Figure 1](results/mult-test.png) in the
-paper), stepping K elements at a time, execute the following commands.
+A preprint of this paper is also available on [arXiv](https://arxiv.org/abs/2009.07961) and our research group's [website](https://qizh.cems.umn.edu/publications/journal-articles).
 
-```
-make mult
-```
+The code in this repository requires the following software:
+1. [Gurobi](https://www.gurobi.com/)
+2. [BARON](https://minlp.com/baron-solver)
+3. [Julia](https://julialang.org/) with the following packages:
+    - JuMP
+    - Gurobi
+    - Linear Algebra
+    - CSV
+    - DataFrames
+    - Printf
+    - BARON
 
-Alternatively, to build the version that sums the elements of a vector (used
-to obtain the results [Figure 2](results/sum-test.png) in the paper), stepping K
-elements at a time, do the following.
+Details of the specific versions of these softwares used by us can be found in Section 6 of the paper.
 
-```
-make clean
-make sum
-```
+Next, we provide the steps that one needs to follow to reproduce our results.
 
-Be sure to make clean before building a different version of the code.
+## Reproduction of Results
 
-## Results
+### Table 1
+The code used to generate results presented in this table can be found [here](https://github.com/grishabh147/2020.0231/tree/master/scripts/CaseStudy1_Customer_Preference_Learning/RandomSampling). The main program is in [RandomSampling.jl](https://github.com/grishabh147/2020.0231/blob/master/scripts/CaseStudy1_Customer_Preference_Learning/RandomSampling/RandomSampling.jl). One needs to edit the values of ``n`` (dimension of (FOP)) and ``J_scheme`` (J_scheme = 1 for the low J case, and J_scheme = 2 to set J as 250 irrespective of the level of noise in data) parameters in line 159 and line 160 of the main program, respectively, to generate computational performance data for different n values considered in the paper. The main program will generate 10 random instances of training data for each of the three levels of noise in Table 1 and solve the resulting instances of (IOP) by both Algorithm 1 and Algorithm 2. The results for Algorithm 1 will be available in the Julia REPL, and more detailed results for Algorithm 2 will become available in a "Results" folder in the root directory that you specify on line 2 of the main program.
 
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+We provide the raw results files, which we used to obtain Table 1, [here](https://github.com/grishabh147/2020.0231/tree/master/results/CaseStudy1_Customer_Preference_Learning/RandomSampling). These can be considered as a sample of what the output from the main program will be.
 
-![Figure 1](results/mult-test.png)
+### Figure 5
+Data for the three subplots here can also be obtained by running [RandomSampling.jl](https://github.com/grishabh147/2020.0231/blob/master/scripts/CaseStudy1_Customer_Preference_Learning/RandomSampling/RandomSampling.jl). Specifically, solving the random training instances with Algorithm 2 will generate "ErrEvolSummary_dim_n_Noise_w.csv" files where, "n" stands for the dimension of (FOP) and "w" is such that &sigma; = 1/w. These ".csv" files will have the data on how the prediction error evolves as Algorithm 2 processes data for all 100 experiments sequentially. 
 
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+Sample output data for this figure can be found [here](https://github.com/grishabh147/2020.0231/tree/master/results/CaseStudy1_Customer_Preference_Learning/RandomSampling/Decomposition).
 
-![Figure 1](results/sum-test.png)
+### Figure 6
+The code for generating results in Figure 6 is available [here](https://github.com/grishabh147/2020.0231/tree/master/scripts/CaseStudy1_Customer_Preference_Learning/AdaptiveSampling); main program is [InstanceGenerator.jl](https://github.com/grishabh147/2020.0231/blob/master/scripts/CaseStudy1_Customer_Preference_Learning/AdaptiveSampling/InstanceGenerator.jl). One needs to edit the values of ``n`` and ``S`` parameters on lines 11 and 12 of the main program, respectively, to generate the different curves shown in Figure 6. Running the main program will store the prediction error evolution data in a "Results" folder in the root directory. 
 
-## Replicating
+Sample output data for this program is shown [here](https://github.com/grishabh147/2020.0231/tree/master/results/CaseStudy1_Customer_Preference_Learning/AdaptiveSampling). 
 
-To replicate the results in [Figure 1](results/mult-test), do either
+### Figure 7
+Both the subplots in this figure can be generated by running the main file [InstanceGenerator.jl](https://github.com/grishabh147/2020.0231/blob/master/scripts/CaseStudy2_Production_Planning/InstanceGenerator.jl) in this [folder](https://github.com/grishabh147/2020.0231/tree/master/scripts/CaseStudy2_Production_Planning). Curves for different H values can be generated by editing the value of ``H`` parameter on line 80 of the main program. The main program will initialize a random instance of the production planning program and prepare a training dataset for the inverse optimization problem by both random and adaptive sampling methods. The final output of this program, consisting of prediction error evolution data for both the sampling approaches, will become available in a "Results" folder in the root directory. 
 
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
-
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
-
-## Ongoing Development
-
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
+Our raw results files used to construct Figure 7 are available [here](https://github.com/grishabh147/2020.0231/tree/master/results/CaseStudy2_Production_Planning).
 
 ## Support
 

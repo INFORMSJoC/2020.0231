@@ -1,0 +1,405 @@
+Noise level is10
+Iteration 	1
+UserLimit
+Best Bound 	15947.650330148854
+Time taken 	7208.404414892197
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7209.2414429187775
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	15919.043083800916
+Time taken 	7208.794270992279
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7208.867324113846
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	15948.922813733789
+Time taken 	7208.015007019043
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7208.07008099556
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	15956.791313021631
+Time taken 	7206.971369981766
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7207.039683103561
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	15922.077910744269
+Time taken 	7208.147614002228
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7208.202378034592
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	16026.836871249021
+Time taken 	7208.298583030701
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7208.3619639873505
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	15964.375918703983
+Time taken 	7212.378527879715
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7212.429507017136
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	15990.449296471743
+Time taken 	7205.834136962891
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7205.897154092789
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	16017.2948667144
+Time taken 	7207.956143856049
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7208.010610818863
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	15958.313841769172
+Time taken 	7215.2870280742645
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7278.508936882019
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Noise level is20
+Iteration 	1
+UserLimit
+Best Bound 	3982.6754169418377
+Time taken 	7208.6872770786285
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7208.741011142731
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	3978.3148415182845
+Time taken 	7213.432499885559
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7213.500266075134
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	3980.8098637744374
+Time taken 	7209.321688890457
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7209.376354217529
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	3987.931162775385
+Time taken 	2850.560662984848
+Error 	0.000338320687566847
+loss 	3987.9311627756188
+Iteration 	2
+Optimal
+Best Bound 	3987.932321809356
+Time taken 	2312.837191104889
+Error 	1.3433019751770814e-7
+loss 	3987.9323218095683
+Error wrt the true objective 	Any[0.00014232990206504946, 2.151211327128255e-11]
+Runtime	5167.940338134766
+Error wrt the random objective 	Any[0.004031124349482308, 0.004009408076091674]
+Test set error 	0.43
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	3987.686833223644
+Time taken 	2706.6553750038147
+Error 	0.07610187754239735
+loss 	3987.686833223644
+Iteration 	2
+UserLimit
+Best Bound 	3987.6185186425428
+Time taken 	7205.497688055038
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[1.8341145729416225e-5, 0.012996573563701059]
+Runtime	9913.983330011368
+Error wrt the random objective 	Any[0.003937047978443086, 0.01362248240805832]
+Test set error 	0.62
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	4003.820192706763
+Time taken 	7205.651484012604
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7205.701721191406
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	3982.3145307619934
+Time taken 	7207.147906064987
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7207.21572804451
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	3968.033823310703
+Time taken 	1901.6982960700989
+Error 	0.017685208532774308
+loss 	3968.0338233107645
+Iteration 	2
+UserLimit
+Best Bound 	3967.8759987029375
+Time taken 	7205.650014162064
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[2.2123502266269135e-9, 0.012996573563701059]
+Runtime	9109.063503026962
+Error wrt the random objective 	Any[0.0038194259566031955, 0.01362248240805832]
+Test set error 	0.46
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	3991.131616821714
+Time taken 	7205.251192808151
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7205.318339109421
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	4013.549683729921
+Time taken 	7205.893785953522
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7205.960023164749
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Noise level is100
+Iteration 	1
+Optimal
+Best Bound 	398.34417157647295
+Time taken 	28.618408203125
+Error 	1.2672046806192506e-7
+loss 	398.3441715904623
+Iteration 	2
+Optimal
+Best Bound 	398.3562015263524
+Time taken 	27.83625888824463
+Error 	0.011828615746193306
+loss 	398.3562015464459
+Error wrt the true objective 	Any[5.3625529364276225e-11, 1.8876063445786087e-5]
+Runtime	59.01967787742615
+Error wrt the random objective 	Any[0.003855747411354927, 0.003852585271888023]
+Test set error 	0.47
+--------------------------------------
+Iteration 	1
+UserLimit
+Best Bound 	398.87960800224624
+Time taken 	7208.123180150986
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[0.012996573563701059]
+Runtime	7208.192097902298
+Error wrt the random objective 	Any[0.01362248240805832]
+Test set error 	1.0
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	403.9006474986359
+Time taken 	402.83392691612244
+Error 	0.00329933717385189
+loss 	403.9006474986359
+Iteration 	2
+Optimal
+Best Bound 	403.90630817382583
+Time taken 	407.5834369659424
+Error 	0.012863662072961453
+loss 	403.90630817382583
+Error wrt the true objective 	Any[1.569673696577567e-9, 3.8234690958611345e-6]
+Runtime	812.9882509708405
+Error wrt the random objective 	Any[0.003959179223187366, 0.003963067453162409]
+Test set error 	0.48
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	396.7976888449157
+Time taken 	487.76511693000793
+Error 	0.008554312123324023
+loss 	396.79768884493376
+Iteration 	2
+Optimal
+Best Bound 	396.79821412998155
+Time taken 	91.05486702919006
+Error 	0.0037705175666350767
+loss 	396.79821412999365
+Error wrt the true objective 	Any[2.099691160896075e-6, 2.0950019322518026e-6]
+Runtime	581.3584580421448
+Error wrt the random objective 	Any[0.0040196740686815405, 0.004011607849276379]
+Test set error 	0.5
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	397.3445045385379
+Time taken 	204.8393051624298
+Error 	1.290439535945423e-7
+loss 	397.3445045585452
+Iteration 	2
+Optimal
+Best Bound 	397.35119807309457
+Time taken 	2263.608617067337
+Error 	0.01202537618845884
+loss 	397.3511980931396
+Error wrt the true objective 	Any[1.4306883802661652e-11, 2.0447574189397244e-11]
+Runtime	2471.2305641174316
+Error wrt the random objective 	Any[0.004163312156501077, 0.004164373967771749]
+Test set error 	0.49
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	398.43971262435787
+Time taken 	468.10741209983826
+Error 	1.1363752978217659e-7
+loss 	398.43971262435787
+Iteration 	2
+Optimal
+Best Bound 	398.47675671407217
+Time taken 	465.65678095817566
+Error 	0.01899767486849839
+loss 	398.47675671407217
+Error wrt the true objective 	Any[1.4437669809685971e-12, 2.377757422409449e-5]
+Runtime	936.7700560092926
+Error wrt the random objective 	Any[0.003921010130629609, 0.00399977935218428]
+Test set error 	0.58
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	399.4164882725264
+Time taken 	407.1789610385895
+Error 	1.4424672411680496e-7
+loss 	399.4164882725264
+Iteration 	2
+Optimal
+Best Bound 	399.4297728723377
+Time taken 	1937.7503509521484
+Error 	0.019234420102504268
+loss 	399.42977288577055
+Error wrt the true objective 	Any[2.7261498614095103e-11, 3.7395295020281605e-10]
+Runtime	2347.52068400383
+Error wrt the random objective 	Any[0.0039989680895993664, 0.00399775126271933]
+Test set error 	0.58
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	399.33210550892807
+Time taken 	348.6413571834564
+Error 	1.1917522767187067e-7
+loss 	399.3321055089343
+Iteration 	2
+Optimal
+Best Bound 	399.4568944914401
+Time taken 	625.5714910030365
+Error 	0.03319741655740678
+loss 	399.4568944914401
+Error wrt the true objective 	Any[1.5194512315019892e-12, 7.632997467584696e-6]
+Runtime	976.7105238437653
+Error wrt the random objective 	Any[0.0039582030697171856, 0.003953019377784339]
+Test set error 	0.51
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	399.5368171429661
+Time taken 	419.3410770893097
+Error 	0.006390011465166585
+loss 	399.5368171429661
+Iteration 	2
+UserLimit
+Best Bound 	399.5119394952977
+Time taken 	7220.425168991089
+Error 	NaN
+loss 	NaN
+Error wrt the true objective 	Any[1.3833890589082937e-5, 0.012996573563701059]
+Runtime	7641.4285271167755
+Error wrt the random objective 	Any[0.004031894933557514, 0.01362248240805832]
+Test set error 	0.48
+--------------------------------------
+Iteration 	1
+Optimal
+Best Bound 	399.90781689282966
+Time taken 	411.41331911087036
+Error 	0.01572959875770591
+loss 	399.90781689289196
+Iteration 	2
+Optimal
+Best Bound 	399.91011249601246
+Time taken 	501.27384877204895
+Error 	1.3251677496074333e-7
+loss 	399.9101124960772
+Error wrt the true objective 	Any[4.964912507163244e-9, 3.4050037095445518e-12]
+Runtime	915.2486197948456
+Error wrt the random objective 	Any[0.003811499443057833, 0.0038082016530558913]
+Test set error 	0.46
+--------------------------------------
