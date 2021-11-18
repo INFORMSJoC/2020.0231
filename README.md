@@ -4,7 +4,22 @@
 
 ## Cite
 
-The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2020.0231).
+To cite this material, please cite this repository, using the following DOI.
+
+[![DOI](https://zenodo.org/badge/424228792.svg)](https://zenodo.org/badge/latestdoi/424228792)
+
+Below is the BibTex for citing this version of the code.
+
+```
+@article{DaAS4DDILO,
+  author =        {R. Gupta, Q. Zhang},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization},
+  year =          {2021},
+  doi =           {10.5281/zenodo.5710020},
+  url =           {https://github.com/INFORMSJoC/2020.0231}
+}  
+```
 
 ## Description
 
