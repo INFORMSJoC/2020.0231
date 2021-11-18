@@ -8,12 +8,7 @@ The final version of this repository, with updated bibliographical information, 
 
 ## Description
 
-This repository contains a snapshot of the Julia code used to generate computational results presented in the following paper:
-> Gupta, R., & Zhang, Q. (2020). Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization. arXiv preprint arXiv:2009.07961.
-
-(To be updated to the correct <em>INFORMS Journal on Computing</em> reference)
-
-A preprint of this paper is also available on [arXiv](https://arxiv.org/abs/2009.07961) and our research group's [website](https://qizh.cems.umn.edu/publications/journal-articles).
+This repository contains a snapshot of the Julia code used to generate computational results presented in the paper "Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization". A preprint of this paper is available on [arXiv](https://arxiv.org/abs/2009.07961) and our research group's [website](https://qizh.cems.umn.edu/publications/journal-articles).
 
 The code in this repository requires the following software:
 1. [Gurobi](https://www.gurobi.com/)
@@ -55,8 +50,3 @@ Our raw results files used to construct Figure 7 are available [here](https://gi
 
 ## License
 The code and raw results data in this repository is available under the MIT license. Please see the [license file](https://github.com/INFORMSJoC/2020.0231/blob/master/LICENSE) for more details.
-
-## Support
-
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
