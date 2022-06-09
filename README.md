@@ -23,7 +23,7 @@ Below is the BibTex for citing this version of the code.
 
 ## Description
 
-This repository contains a snapshot of the Julia code used to generate computational results presented in the paper "Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization". A preprint of this paper is available on [arXiv](https://arxiv.org/abs/2009.07961) and our research group's [website](https://qizh.cems.umn.edu/publications/journal-articles).
+This repository contains a snapshot of the Julia code used to generate computational results presented in the paper ["Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization"](https://pubsonline.informs.org/doi/10.1287/ijoc.2022.1162). A preprint of this paper is available on [arXiv](https://arxiv.org/abs/2009.07961) and our research group's [website](https://qizh.cems.umn.edu/publications/journal-articles).
 
 The code in this repository requires the following software:
 1. [Gurobi](https://www.gurobi.com/)
