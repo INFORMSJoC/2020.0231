@@ -1,6 +1,6 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization
+# [Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization](https://pubsonline.informs.org/doi/10.1287/ijoc.2022.1162)
 
 ## Cite
 
