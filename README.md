@@ -2,6 +2,9 @@
 
 # [Decomposition and Adaptive Sampling for Data-Driven Inverse Linear Optimization](https://pubsonline.informs.org/doi/10.1287/ijoc.2022.1162)
 
+This repository is associated with the paper found at this link (
+https://pubsonline.informs.org/doi/10.1287/ijoc.2022.1162) 
+
 ## Cite
 
 To cite this material, please cite this repository, using the following DOI.
